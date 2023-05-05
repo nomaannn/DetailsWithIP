@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Getting Clients IP</title>
+	
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+	<div class="outer">
+        
+		
+		<h1>Public IP Address of user is:</h1>
+        <button id="btn" onclick="ip()">click</button>
+		
+        
+<div class="main_contain">
+
+    <div class="main">
+        <h2>My Public IP ADDRESS:</h2>
+        <div class="header">
+            <div class="inner_header">
+                <div >Lat: <span id="lat" class="val"></span></div>
+                <div>City : <span id="city" class="val"> </span></div>
+                <div >Organistion : <span id="org" class="val"> </span></div>
+                <div >Long : <span id="long" class="val"> </span></div>
+                <div >Region: <span id="region" class="val"> </span></div>
+                <div >Hostname: <span id="host" class="val"> </span></div>
+            </div>
+        </div>
+        <div id="container" class="container">
+            
+            <iframe id="frame" width="600" height="450" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/place?q=&output=embed" allowfullscreen ></iframe>
+     </div>
+
+   <div class="lower">
+    <div ><h4>Time Zone:<span id="time" class="val"></span></h4></div>
+    <div ><h4>Date and Time:<span id="date" class="val"></span></h4></div>
+    <div ><h4>Pincode:<span id="pin" class="val"></span></h4></div>
+    <div ><h4>Message:<span id="message" class="val"></span></h4></div>
+   </div>
+
+    </div>
+
+
+    <div class="postal" id="postal">
+
+    </div>
+</div>
+	</div>
+    
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script src="./index.js"></script>
+</body>
+
+</html>

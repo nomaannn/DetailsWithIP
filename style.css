@@ -1,0 +1,56 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}	
+    
+    .inner_header{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 10px 0px;
+    }
+    .inner_header > div{
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .postal{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 10px 0px;
+    }
+    @media only screen and (max-width: 1000px) {
+        .postal{
+            /* display: grid; */
+            grid-template-columns: auto ;
+        } 
+        .inner_header{
+            /* display: grid; */
+            grid-template-columns:  auto;
+        }
+    }
+    .postal > div{
+        border:1px solid black;
+        margin: 20px;
+        padding: 20px
+    }
+    .main_contain{
+        
+        display: none;
+    }
+    .outer{
+        margin: 20px;
+    }
+    #btn{
+        background-color: black;
+        color: white;
+        padding:10px 30px;
+        border:none
+    }
+    iframe{
+        width: 100%;
+    }
+    .val{
+        font-weight: 300;
+    }
+	
